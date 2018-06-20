@@ -14,13 +14,6 @@ Specific training instructions refers to train.sh
 
 Specific testing instructions refers to test.sh
 
-folder 'data': store pair_json, data_json, image_json
-folder 'log': store training log
-folder 'pretrain': store files to produce data
-folder 'models': store pytorch models
-folder 'test': store test files
-folder 'tools': store functional files
-
 folder instructions:
 - 'data': store pair_json, data_json, image_json
 - 'log': store training log
