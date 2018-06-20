@@ -5,6 +5,7 @@ Each file can train and test Siamese, the difference between these two files is 
 
 main.py: cv2_loader, sub mean [104.0, 117.0, 123.0]
 main1.py: cv2_loader, switch channel BGR to RGB, div 255.0, sub mean=[0.485, 0.456, 0.406], div std=[0.229, 0.224, 0.225]
+main2.py: siamese do not share parameters
 
 Specific training instructions refers to train.sh
 Specific testing instructions refers to test.sh
