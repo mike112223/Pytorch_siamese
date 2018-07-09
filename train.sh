@@ -1,0 +1,11 @@
+nohup python main.py \
+	--rot 1 \
+	--train \
+	--epoch 10 \
+	--pair_json <pair_json path> \
+	--data_json <data_json path> \
+	--image_json <image_json path> \
+	--name <trained_model_name> \
+	--decay_epoch 6,8 \
+	--batch_size 16 \
+	--lr 0.001 > <log path> 2>&1 &
